@@ -21,6 +21,8 @@ Esta es una landing page profesional diseñada para **Claudia D'Abundo**, admini
 - **Vanilla CSS** (Diseño a medida)
 - **React Icons**
 
+**Desarrollado con ❤️ para Claudia D'Abundo.**
+
 ---
 
 ## English
@@ -40,7 +42,9 @@ This is a professional landing page designed for **Claudia D'Abundo**, a propert
 - **Vanilla CSS** (Custom Design)
 - **React Icons**
 
+**Developed with ❤️ for Claudia D'Abundo.**
+
 ---
 
-**Desarrollado con ❤️ para Claudia D'Abundo.**
-**Developed with ❤️ for Claudia D'Abundo.**
+
+
