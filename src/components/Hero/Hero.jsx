@@ -13,7 +13,7 @@ const Hero = () => {
             <span className="highlight">Profesional y Transparente</span>
           </h1>
           <p className="hero-subtitle">
-            Gestión integral, eficiente y cercana en Mar del Plata. Me ocupo de tu edificio para que vivas con tranquilidad.
+            Gestión integral, eficiente y cercana en Mar del Plata. Me ocupo de su edificio para que vivas con tranquilidad.
           </p>
           <div className="hero-buttons">
             <a href="#" className="btn btn-primary hero-btn">

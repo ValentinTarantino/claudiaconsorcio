@@ -18,7 +18,6 @@ const Contact = () => {
               <div>
                 <h4>Ubicación</h4>
                 <p>Acha 325 2 "B"</p>
-                <p>(sin oficina física)</p>
                 <p>Mar del Plata, Argentina</p>
               </div>
             </div>
