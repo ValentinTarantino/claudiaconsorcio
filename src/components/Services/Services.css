@@ -1,5 +1,6 @@
 .services {
   background-color: var(--bg-light);
+  padding-top: 2rem;
 }
 
 .services-grid {

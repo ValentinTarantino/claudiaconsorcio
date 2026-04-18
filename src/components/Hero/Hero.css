@@ -8,7 +8,21 @@
   background-position: center;
   background-attachment: fixed;
   padding: 100px 0;
+  overflow: hidden;
 }
+
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 67px;
+  background: linear-gradient(to bottom, transparent 0%, var(--bg-light) 100%);
+  z-index: 2;
+  pointer-events: none;
+}
+
 
 .hero-overlay {
   position: absolute;
@@ -22,7 +36,7 @@
 
 .hero-content {
   position: relative;
-  z-index: 2;
+  z-index: 3;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,6 +63,7 @@
   color: var(--accent-color);
   background: linear-gradient(90deg, var(--primary-light), var(--primary-color));
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
 }
@@ -91,6 +106,7 @@
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -101,7 +117,7 @@
   .hero-title {
     font-size: 3rem;
   }
-  
+
   .hero-text-box {
     padding: 2.5rem;
     max-width: 550px;
@@ -118,7 +134,7 @@
     padding: 2rem 1.5rem;
     max-width: 100%;
   }
-  
+
   .hero-title {
     font-size: 2.2rem;
   }
