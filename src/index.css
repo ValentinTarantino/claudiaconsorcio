@@ -1,40 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
-  /* Color Palette - Professional Consorcio */
-  --primary-color: #1A365D; /* Deep Blue */
+  --primary-color: #1A365D;
   --primary-light: #2B6CB0;
-  --secondary-color: #718096; /* Cool Gray */
-  --accent-color: #3182CE; /* Vibrant Blue for CTA */
+  --secondary-color: #718096;
+  --accent-color: #3182CE;
   --accent-hover: #2C5282;
-  
-  --bg-light: #F7FAFC; /* Off white background */
+
+  --bg-light: #F7FAFC;
   --bg-white: #FFFFFF;
-  --bg-dark: #1A202C; /* Dark background for footer */
-  
-  --text-main: #2D3748; /* Dark Gray for text */
+  --bg-dark: #1A202C;
+
+  --text-main: #2D3748;
   --text-muted: #4A5568;
   --text-light: #E2E8F0;
-  
-  /* Typography */
+
   --font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  
-  /* Layout & Spacing */
+
   --max-width: 1200px;
   --spacing-sm: 0.5rem;
   --spacing-md: 1rem;
   --spacing-lg: 2rem;
   --spacing-xl: 4rem;
-  
-  /* Shadows & Borders */
-  --shadow-sm: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
-  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   --border-radius-sm: 4px;
   --border-radius-md: 8px;
   --border-radius-lg: 12px;
-  
-  /* Transitions */
+
+
   --transition-fast: 0.2s ease-in-out;
   --transition-normal: 0.3s ease-in-out;
 }
@@ -50,10 +46,11 @@ html {
   color: var(--text-main);
   background-color: var(--bg-light);
   line-height: 1.6;
-  scroll-behavior: smooth; /* Smooth scrolling for navigation */
+  scroll-behavior: smooth;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
   width: 100%;
   position: relative;
@@ -64,7 +61,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--primary-color);
   font-weight: 600;
   line-height: 1.2;
@@ -79,7 +81,6 @@ ul {
   list-style: none;
 }
 
-/* Utilities */
 .container {
   width: 100%;
   max-width: var(--max-width);
@@ -143,7 +144,6 @@ ul {
   color: white;
 }
 
-/* Glassmorphism utility */
 .glass {
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(10px);
@@ -151,22 +151,26 @@ ul {
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-/* Responsive typography */
 @media screen and (max-width: 768px) {
   .container {
     padding: 0 var(--spacing-md);
   }
+
   .footer-grid {
     grid-template-columns: 1fr;
     gap: 2.5rem;
   }
-  .footer-modern ul li a, .footer-modern ul li {
+
+  .footer-modern ul li a,
+  .footer-modern ul li {
     word-break: break-word;
     overflow-wrap: break-word;
   }
+
   .section-title {
     font-size: 2rem;
   }
+
   .section {
     padding: var(--spacing-lg) 0;
   }
