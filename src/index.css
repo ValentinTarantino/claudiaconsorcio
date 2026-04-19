@@ -90,6 +90,7 @@ ul {
 
 .section {
   padding: var(--spacing-xl) 0;
+  scroll-margin-top: 80px;
 }
 
 .section-title {

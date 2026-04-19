@@ -33,6 +33,7 @@
   color: white;
   line-height: 1.1;
   transition: color var(--transition-normal);
+  white-space: nowrap;
 }
 
 .logo-subtitle {
@@ -109,6 +110,25 @@
 @media screen and (max-width: 768px) {
   .menu-icon {
     display: block;
+    position: absolute;
+    right: var(--spacing-md);
+  }
+
+  .header-content {
+    justify-content: center;
+  }
+
+  .logo-name {
+    font-size: 1.3rem;
+  }
+
+  .logo-subtitle {
+    font-size: 0.75rem;
+  }
+
+  .logo {
+    align-items: center;
+    text-align: center;
   }
 
   .nav-menu {

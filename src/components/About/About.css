@@ -49,6 +49,7 @@
   transform: rotate(-4deg);
   margin-top: auto;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
 }
 
 .about-right-panel {
@@ -133,5 +134,9 @@
   .value-number {
     font-size: 2.5rem;
     line-height: 1;
+  }
+
+  .signature {
+    font-size: 2.2rem;
   }
 }
