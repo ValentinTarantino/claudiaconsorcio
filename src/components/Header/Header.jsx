@@ -11,7 +11,7 @@ const Header = () => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
       
-      const sections = ['inicio', 'servicios', 'nosotros', 'contacto'];
+      const sections = ['inicio', 'servicios', 'nosotros', 'noticias', 'contacto'];
       const scrollPosition = window.scrollY + 150;
 
       let currentSection = 'inicio';
@@ -64,7 +64,10 @@ const Header = () => {
               <a href="#nosotros" className={`nav-link ${activeSection === 'nosotros' ? 'active' : ''}`} onClick={() => setMobileMenuOpen(false)}>Sobre Mí</a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link facturas-link" onClick={() => setMobileMenuOpen(false)}>Facturas</a>
+              <a href="#" className="nav-link propietarios-link" onClick={() => setMobileMenuOpen(false)}>Propietarios</a>
+            </li>
+            <li className="nav-item">
+              <a href="#noticias" className={`nav-link ${activeSection === 'noticias' ? 'active' : ''}`} onClick={() => setMobileMenuOpen(false)}>Noticias</a>
             </li>
             <li className="nav-item">
               <a href="#contacto" className={`nav-link ${activeSection === 'contacto' ? 'active' : ''}`} onClick={() => setMobileMenuOpen(false)}>

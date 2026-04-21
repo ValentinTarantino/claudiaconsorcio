@@ -18,7 +18,7 @@ const Hero = () => {
           <div className="hero-buttons">
             <a href="#" className="btn btn-primary hero-btn">
               <FaFileInvoiceDollar className="btn-icon" />
-              Consultar Facturación
+              Acceso para Propietarios
             </a>
             <a href="#servicios" className="btn btn-outline hero-btn">
               Mis Servicios

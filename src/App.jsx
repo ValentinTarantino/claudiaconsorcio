@@ -3,11 +3,14 @@ import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Services from './components/Services/Services';
 import About from './components/About/About';
+import News from './components/News/Noticias';
 import Contact from './components/Contact/Contact';
 import FloatingWhatsApp from './components/FloatingWhatsApp/FloatingWhatsApp';
 import './App.css';
 
+
 function App() {
+
   useEffect(() => {
     if ('scrollRestoration' in window.history) {
       window.history.scrollRestoration = 'manual';
@@ -22,6 +25,7 @@ function App() {
         <Hero />
         <Services />
         <About />
+        <News />
         <Contact />
       </main>
       <FloatingWhatsApp />
@@ -41,7 +45,8 @@ function App() {
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#servicios">Servicios</a></li>
                 <li><a href="#nosotros">Sobre mí</a></li>
-                <li><a href="#">Facturas</a></li>
+                <li><a href="#">Propietarios</a></li>
+                <li><a href="#noticias">Noticias</a></li>
               </ul>
             </div>
             <div className="footer-contact-col">
